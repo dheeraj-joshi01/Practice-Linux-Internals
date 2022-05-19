@@ -86,6 +86,7 @@ int main()
 		
 	}
 	
+	close(newFD);
 	close(fd);
 	
 	return 0;
